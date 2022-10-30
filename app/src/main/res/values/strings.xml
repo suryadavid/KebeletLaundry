@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Kebelet  Laundry</string>
+    <string name="wall_desc">Kursi, keranjang, dan dinding putih</string>
+    <string name="wall_text">Apakah keranjang cucian mu penuh?</string>
+    <string name="header_text">Welcome to \nKebelet Laundry</string>
+    <string name="subheader_text">Pilih layanan laundry yang kamu pilih hari ini</string>
+    <string name="tile1">Cuci Kering</string>
+    <string name="tile2">Cuci Formal</string>
+    <string name="tile3">Setrika Uap</string>
+    <string name="choose_items">Pilih Item</string>
+    <string name="blazer">Blazer</string>
+    <string name="submit_your_info">Kirim Info Mu</string>
+    <string name="make_payment">Melakukan pembayaran</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Halo fragmen kosong</string>
+</resources>

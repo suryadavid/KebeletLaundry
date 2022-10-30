@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="rounded_rect_top">
+        <item name="cornerSizeTopRight">10%</item>
+        <item name="cornerSizeTopLeft">10%</item>
+    </style>
+
+    <style name="grey_text_bold">
+        <item name="android:textSize">13sp</item>
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="flow_horizontalAlign">center</item>
+    </style>
+
+    <style name="grey_text_smol">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="flow_horizontalAlign">center</item>
+    </style>
+
+    <style name="dark_azure_text_bold">
+        <item name="android:textSize">13sp</item>
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/dark_azure</item>
+        <item name="flow_horizontalAlign">center</item>
+    </style>
+
+    <style name="white_header">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="azure_header">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/dark_azure</item>
+        <item name="android:textSize">55sp</item>
+    </style>
+
+    <style name="white_subtitle">
+        <item name="android:textSize">13sp</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="rounded_rect">
+        <item name="cornerSize">20%</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <style name="verif_code_azure">
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/dark_azure</item>
+        <item name="android:textSize">38sp</item>
+    </style>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl_order_item"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginEnd="30dp"
+    android:padding="15dp"
+    android:background="@drawable/round_all_around_but_grey">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_orderid"
+            style="@style/dark_azure_text_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order ID" />
+
+        <TextView
+            android:id="@+id/tv_orderid_value"
+            style="@style/grey_text_smol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Loading..." />
+
+        <TextView
+            android:id="@+id/tv_createdat"
+            style="@style/dark_azure_text_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order placed at" />
+
+        <TextView
+            android:id="@+id/tv_createdat_value"
+            style="@style/grey_text_smol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Loading..." />
+
+        <TextView
+            android:id="@+id/tv_status"
+            style="@style/dark_azure_text_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status" />
+
+        <TextView
+            android:id="@+id/tv_status_value"
+            style="@style/grey_text_smol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading..." />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

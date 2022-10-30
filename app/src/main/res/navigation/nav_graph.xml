@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragHome">
+    <fragment
+        android:id="@+id/fragHome"
+        android:name="com.thedhobighat.FragHome"
+        android:label="frag_home"
+        tools:layout="@layout/frag_home" >
+        <action
+            android:id="@+id/action_fragHome_to_fragChooseItems"
+            app:destination="@id/fragChooseItems"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_right"
+            app:popExitAnim="@anim/slide_out_to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragChooseItems"
+        android:name="com.thedhobighat.FragChooseItems"
+        android:label="frag_choose_items"
+        tools:layout="@layout/frag_choose_items" >
+        <action
+            android:id="@+id/action_fragChooseItems_to_fragSubmitYourInfo"
+            app:destination="@id/fragSubmitYourInfo"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_right"
+            app:popExitAnim="@anim/slide_out_to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragSubmitYourInfo"
+        android:name="com.thedhobighat.FragSubmitYourInfo"
+        android:label="frag_submit_your_info"
+        tools:layout="@layout/frag_submit_your_info" >
+        <action
+            android:id="@+id/action_fragSubmitYourInfo_to_fragPayment"
+            app:destination="@id/fragPayment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_right"
+            app:popExitAnim="@anim/slide_out_to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragPayment"
+        android:name="com.thedhobighat.FragPayment"
+        android:label="frag_payment"
+        tools:layout="@layout/frag_payment" >
+        <action
+            android:id="@+id/action_fragPayment_to_fragTrackYourOrder"
+            app:destination="@id/fragTrackYourOrder"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_right"
+            app:popExitAnim="@anim/slide_out_to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragTrackYourOrder"
+        android:name="com.thedhobighat.FragTrackYourOrder"
+        android:label="frag_track_your_order"
+        tools:layout="@layout/frag_track_your_order" />
+</navigation>
